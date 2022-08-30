@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:375px;
+    margin:0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:7px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.user-avatar {
+    width: 34px;
+    border-radius: 50%;
+}
+
+.logo {
+    width: 127px;
+}
+
+.user-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin:10px;
+}
+ .avatar {
+    width: 34px;
+    border-radius: 50%;
+    margin-right:3px;
+    
+}
+.name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    display:block;
+    margin-bottom:0;
+}
+.location{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  display:block;
+  margin-top:0;
+}
+ .post {
+    width: 100%;
+}
+.icons{
+    padding-left:10px;
+}
+.icons img{
+    width:24px;
+    height:23px;
+    margin-top:15px;
+    margin-right:7px;
+    margin-bottom:10px;
+}
+.likes{
+ font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+margin-top:0;
+}
+.comment{
+    font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+
+font-size: 13px;
+line-height: 16px;
+
+color: #000000;
+}
+.comment span{
+    font-weight: 700;
+}
